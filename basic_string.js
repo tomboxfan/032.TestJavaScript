@@ -106,3 +106,8 @@ console.log(str7Sub);
 var str8 = 'abc';
 var str8UpperCase = str8.toUpperCase();
 console.log(str8UpperCase);
+
+
+// parseInt(str) parse to int
+var num_8 = "8"
+console.log(parseInt(num_8) -2)
