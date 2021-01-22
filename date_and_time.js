@@ -31,3 +31,14 @@ var futureDay = new Date("June 30, 2045")
 console.log(futureDay)
 var futureDayTime = new Date("June 30, 2045 13:23:00")
 console.log(futureDayTime)
+
+
+function date_diff(date1Str, date2Str) {
+  var date1 = new Date(date1Str);
+  var date2 = new Date(date2Str);
+  var date1MilliSeconds = date1.getTime();
+  var date2MilliSeconds = date2.getTime();
+  return date1MilliSeconds - date2MilliSeconds;
+}
+
+console.log(date_diff("Jan 01, 2021 12:23:01", "Jan 01, 2021 12:23:00")) // 1000
