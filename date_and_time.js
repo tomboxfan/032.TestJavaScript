@@ -7,6 +7,8 @@ console.log(rightNow);
 // Convert Date to String
 var rightNowStr = rightNow.toString();
 console.log(rightNowStr);
+var rightNowStr1 = rightNow.getDate()  + "-" + (rightNow.getMonth()+1) + "-" + rightNow.getFullYear() + " " + rightNow.getHours() + ":" + rightNow.getMinutes();
+console.log(rightNowStr1);
 
 var theDay = rightNow.getDay(); //get a int [0,6]
 console.log(theDay);
